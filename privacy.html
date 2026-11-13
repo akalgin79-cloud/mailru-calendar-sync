@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy — Mail.ru Calendar Sync</title>
+<style>body{font:18px/1.6 system-ui;max-width:760px;margin:60px auto;padding:0 24px;color:#172533}a{color:#165ac0}</style>
+<h1>Privacy Policy</h1><p>Mail.ru Calendar Sync · Updated November 11, 2026</p>
+<h2>Purpose and information used</h2>
+<p>This is a personal application running on its owner's Windows computer. It reads Mail.ru calendar event information, including titles, descriptions, dates, times, locations, recurrence rules and identifiers, and writes imported events to the owner's Google Calendar. It reads Google Calendar information to maintain those imported copies.</p>
+<h2>Google account access</h2>
+<p>Google access is authorized through OAuth. The application requests the Google Calendar scope to maintain its calendar copy. It does not collect the Google account password. Google user data is used only for calendar synchronization, not advertising, sale, credit decisions or training generalized AI models.</p>
+<h2>Storage and transmission</h2>
+<p>OAuth credentials are stored locally, encrypted with Windows DPAPI for the current Windows user. Mail.ru credentials and the Telegram bot credential are read from Windows Credential Manager. Local configuration, event identifier mappings, operational status and logs are stored on the computer. Historical logs may contain event identifiers or error details; these files must remain private.</p>
+<p>Calendar data is transmitted to Mail.ru and Google as needed to perform synchronization. If Telegram notifications are enabled, synchronization status, error categories and relevant run timestamps are sent to the configured Telegram chat. The website does not receive calendar data or credentials.</p>
+<h2>Sharing</h2>
+<p>The application does not sell user data or send it to advertising or analytics providers. Calendar and notification information is processed by the services the owner has configured: Mail.ru, Google and optionally Telegram, under their respective policies. This static website is hosted on GitHub Pages; GitHub may process ordinary hosting request metadata under its own privacy policy.</p>
+<h2>Retention and control</h2>
+<p>Local credentials, state and logs remain until the owner removes them. Imported events remain in Google Calendar until the owner or the configured synchronization removes them. Revoking OAuth access does not itself delete existing imported events.</p>
+<p>The owner can stop the scheduled Windows task and revoke the application's access in Google account security settings. Local data and imported copies can then be removed separately. Removing the source Mail.ru event can cause its imported Google counterpart to be removed during synchronization.</p>
+<h2>Contact</h2>
+<p>Contact the maintainer through <a href="https://github.com/akalgin79-cloud">akalgin79-cloud on GitHub</a>. Do not post passwords, tokens or private calendar information in public issues.</p>
+<p><a href="index.html">Application home</a></p>
+</html>
